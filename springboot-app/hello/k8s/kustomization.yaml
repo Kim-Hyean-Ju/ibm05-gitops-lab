@@ -10,4 +10,4 @@ resources:
 images:
 - name: kimhyeanju/hello-app
   newName: kimhyeanju/hello-app
-  newTag: a7c8609
+  newTag: 7ac4e64
