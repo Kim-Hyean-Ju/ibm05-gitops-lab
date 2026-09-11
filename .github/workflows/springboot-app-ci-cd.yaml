@@ -60,7 +60,7 @@ jobs:
 
       # 7. Kustomize 설치 
       #    Kubernetes 매니페스트 관리를 위해 설치 
-      #    sed 보다 안전하게 YAML 파일을 수정하기 위해 Kustomize를 사용
+      #    sed 보다 안전하게 YAML 파일을 수정하기 위해 Kustomize를 사용함
       - name: Install Kustomize
         run: |
           curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"  | bash
