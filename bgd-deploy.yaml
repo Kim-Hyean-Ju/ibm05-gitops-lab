@@ -13,7 +13,7 @@ spec:
   template:
     metadata:
       labels:
-        app: bgd    # 서비스의 label과  일치, matchLabels와 일치함
+        app: bgd    # 서비스의 label과  일치, matchLabels와 일치
       creationTimestamp: null
     spec:
       containers:
